@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  padding: 0px 200px 200px 200px;
+}
+.headerImg {
+  width: auto;
+  height: 60px;
+  max-width: 50%;
+}
+.headerOptions {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  width: 100%;
+}
+.loneStar {
+  width: auto;
+  height: 50px;
+  justify-content: center;
+  padding: 0 700px;
+}
+.tagline {
+  width: 100%;
+  padding: 30px 400px;
+  justify-content: center;
+}
+.description {
+  display: flex;
+  padding: 100px 250px;
+  width: 100%;
+  justify-content: space-between;
+}
+.for {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 250px;
+}
+.patients {
+  background-color: rgba(5, 248, 252, 0.341);
+  border-radius: 20px;
+  padding: 0 20px;
+  color: white;
+}
+.patients h1,
+h4 {
+  padding: 20px 20px;
+}
+.choose {
+  padding: 50px 20px;
+}
+.doctors {
+  background-color: rgb(18, 18, 223);
+  border-radius: 20px;
+  color: white;
+}
+.doctors h1 h4 {
+  padding: 20px 20px;
+}
+.clinics {
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+}
+.clinics h1 h4 {
+  padding: 20px 20px;
+}
